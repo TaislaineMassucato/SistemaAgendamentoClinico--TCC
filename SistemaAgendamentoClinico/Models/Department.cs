@@ -1,4 +1,9 @@
-﻿namespace SistemaAgendamentoClinico.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace SistemaAgendamentoClinico.Models.ViewModels
 {
     public class Department
     {
