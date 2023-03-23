@@ -1,6 +1,6 @@
 using System;
 
-namespace SistemaAgendamentoClinico.Models
+namespace SistemaAgendamentoClinico.Models.ViewModels
 {
     public class ErrorViewModel
     {

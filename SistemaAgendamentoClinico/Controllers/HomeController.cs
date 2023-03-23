@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SistemaAgendamentoClinico.Models;
+using SistemaAgendamentoClinico.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace SistemaAgendamentoClinico.Controllers
 {
