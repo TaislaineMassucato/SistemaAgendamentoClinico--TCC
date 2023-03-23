@@ -17,7 +17,9 @@ namespace SistemaAgendamentoClinico.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Clinica New Card ";
+            ViewData["Conteudo"] = "Desenvolvendo web interno clinica";
+            ViewData["email"] = "clinicanewcae@gmail.com";
 
             return View();
         }
