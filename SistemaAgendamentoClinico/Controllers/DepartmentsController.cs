@@ -44,7 +44,7 @@ namespace SistemaAgendamentoClinico.Controllers
         }
 
         // GET: Departments/Create
-        public IActionResult Create()a
+        public IActionResult Create()
         {
             return View();
         }
