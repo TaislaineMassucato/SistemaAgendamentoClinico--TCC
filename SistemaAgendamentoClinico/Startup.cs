@@ -37,7 +37,7 @@ namespace SistemaAgendamentoClinico
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<SistemaAgendamentoClinicoContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SistemaAgendamentoClinicoContext")));
+                    options.UseMySql(Configuration.GetConnectionString("SistemaAgendamentoClinicoContext"),builder => builder.MigrationsAssembly("SistemaAgendamentoClinico")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
