@@ -1,0 +1,49 @@
+<div class="barras DG">
+    <mat-toolbar class="header mat-elevation-z5">
+        <img class="logo mg-0-auto" src="../../../assets/Logo/_NEWCARD.PNG" alt="newCard">
+        <div class="navigation DF">
+            <div class="menu">
+                <button mat-button (click)="opened=!opened">
+                    <mat-icon appBlue class="size">menu</mat-icon>
+                </button>
+            </div>
+            <div class="contacts DF">
+                <mat-icon appBlue>add</mat-icon>
+                <mat-icon appBlue>call</mat-icon>
+                <mat-icon appBlue>error</mat-icon>
+                <mat-icon appBlue>account_circle</mat-icon>
+            </div>
+        </div>
+    </mat-toolbar>
+    <app-search></app-search>
+    <mat-sidenav-container class="container BG-Blue">
+        <mat-sidenav class="sidenav BG-Blue" mode="side" [(opened)]="opened" mode="side">
+            <div class="buttonsMenu DG">
+                <button class="button DF" mat-button>
+                    <i>
+                        <mat-icon v-middle appBlue>backup_table</mat-icon>
+                    </i>
+                    Painel
+                </button>
+                <button class="button DF" mat-button>
+                    <i>
+                        <mat-icon v-middle appBlue>event</mat-icon>
+                    </i>
+                    Agenda
+                </button>
+                <button class="button DF" mat-button>
+                    <i>
+                        <mat-icon v-middle appBlue>file_copy</mat-icon>
+                    </i>
+                    Prontuários
+                </button>
+                <button class="button DF" mat-button>
+                    <i>
+                        <mat-icon v-middle appBlue>create</mat-icon>
+                    </i>
+                    Cadastros
+                </button>
+            </div>
+            </mat-sidenav>  
+    </mat-sidenav-container>
+</div>

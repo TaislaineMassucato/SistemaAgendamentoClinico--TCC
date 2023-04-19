@@ -1,0 +1,23 @@
+.subHeader {
+    position: fixed;
+    margin-top: 123px;
+    width: 100%;
+}
+.form {
+    justify-content: center;
+}
+
+input {
+    height: 24px;
+    width: 500px;
+    border: 2px solid #00679e;
+    border-radius: 4px 0px 0px 4px;
+    outline: none;
+}
+
+.search {
+    color: white !important;
+    height: 30px;
+    border-radius: 0px 4px 4px 0px;
+}
+

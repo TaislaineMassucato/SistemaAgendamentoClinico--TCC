@@ -1,0 +1,66 @@
+.header {
+    height: 120px;
+    display:  grid;
+    position: fixed;
+    padding: 0px 10px 0;
+}
+
+.navigation {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .logo {
+    width: 199px;
+    height: 55px;
+}
+
+.navigation .contacts {
+    gap: 20px;
+}
+
+.menu .size {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+}
+
+.barra2 {
+    align-items: center;
+}
+
+.container {
+    height: 500px;
+    margin-top: 123px;
+}
+
+.sidenav {
+    width: 200px;
+    background-color: #00679e;
+}
+
+.barras {
+    position: absolute;
+}
+
+.buttonsMenu {
+    gap: 20px;
+    padding: 16px;
+}
+
+.buttonsMenu .button {
+    width: 100%;
+    background-color: #ebebeb;
+    color: #00679e !important;
+    justify-content: left;
+    padding: 15px;
+}
+
+.sidenav i {
+    padding-right: 20px;
+}
+
+.contacts mat-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
